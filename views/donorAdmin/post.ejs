@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex, follow">
+    <title>Register yourself</title>
+
+
+    <link rel="stylesheet" href="reciepentstyle.css">
+</head>
+
+<body>
+
+
+    <div class="main">
+
+        <div class="container">
+            <form method="POST" class="registration-form" id="registration-form">
+                <h2>Registration Form</h2><br>
+                <h3>(Details to be filled as per patient's record)</h3>
+                <div class="form-group-1">
+                    <input type="text" name="Id type" id="Id type" placeholder="ID type" required />
+                    <input type="text" name="Id number" id="Id number" placeholder="ID number" required />
+                    <input type="Name as per Id card" name="Name as per Id card" id="Name as per Id card" placeholder="Name as per ID card" required />
+                    <input type="number" name="phone_number" id="phone_number" placeholder="Phone number" required />
+                    <input type="email" name="email" id="email" placeholder="E-mail ID" required />
+                    <input type="address" name="address" id="address" placeholder="Address" required />
+                    <div class="select-list">
+                        <select name="blood grp" id="Blood Group">
+                            <option slected value="">Blood Group</option>
+                            <option value="language">A +ve</option>
+                            <option value="language">A -ve</option>
+                            <option value="society">B +ve</option>
+                            <option value="language">B -ve</option>
+                            <option value="language">AB +ve</option>
+                            <option value="language">AB -ve</option>
+                            <option value="language">O +ve</option>
+                            <option value="language">O -ve</option>
+                        </select>
+                    </div>
+                    <input type="blood group" name="blood group" id="blood group" placeholder="Other Specifications in Blood group (if any)" />
+
+                    <div class="select-list">
+                        <select name="age" id="Age">
+                            <option slected value="">Age</option>
+                            <option value="language">Below 18</option>
+                            <option value="society">18-45</option>
+                            <option value="language">45-60</option>
+                            <option value="language">Above 60</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group-2">
+                    <h3>How can we help you ?</h3>
+                    <div class="form-group-2">
+                        <input type="text" name="requirements" id="requirements" placeholder="Requirements" required />
+                    </div>
+                    <div class="select-list">
+                        <select name="Is patient suffering from any other disease" id="Is patient suffering from any other disease" required>
+                            <option slected value="">Is patient suffering from any other disease</option>
+                            <option value="language">Yes</option>
+                            <option value="society">No</option>
+                        </select>
+                    </div>
+                    <div class="form-group-2">
+                        <input type="text" name="Is patient suffering from any other disease" id="Is patient suffering from any other disease" placeholder="Please specify (if any)" />
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                    <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="Register" />
+                </div>
+            </form>
+        </div>
+
+    </div>

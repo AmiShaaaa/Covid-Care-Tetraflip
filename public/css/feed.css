@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar {
+  background-color: #1F1F1F;
+}
+.navbar-toggler {
+  border-color: #fff !important;
+  background-color: #fff;
+}
+.navbar-toggler span {
+  color: #fff !important;
+}
+
+.brand-logo {
+  height: 70px;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 1rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+nav button {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-family: "Montserrat", sans-serif !important;
+  padding-top: 8px !important;
+}
+
+.contact-nav {
+  border-color: rgb(42,177,205);
+  border-width: 2px;
+  background: rgb(42,177,205);
+  color: white;
+}
+
+
+.contact-nav:hover {
+  color: white;
+}
+
+.contact-nav2 {
+  border-color: rgb(42,177,205);
+  border-width: 2px;
+  color: white;
+}
+
+
+.contact-nav2:hover {
+  background-color: rgb(0,0,0,0.7);
+  color: white;
+}
+
+
+
+.hbtn {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  padding: 6px 20px;
+  margin: 0px 3px 6px;
+  text-align: center;
+  border: 2px solid #2ab1ce;
+  text-decoration: none;
+  color: #2ab1ce;
+  white-space: nowrap;
+  z-index: 0;
+} 
+
+
+.hbtn i {
+  padding-right: 8px;
+} 
+
+
+.hb-fill-on::before {
+  position: absolute;
+  content: "";
+  background: #2ab1ce;
+  transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+} 
+
+
+.hb-fill-on:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+} 
+
+
+.hb-fill-on:hover {
+  color: white;
+  background: #2ab1ce;
+  transition: color 0.3s ease 0s, background 0s ease 0.3s;
+} 
+
+
+.hbor2 {
+  border-width: 2px;
+} 
+
+
+.hbor2::before {
+  border-width: 2px !important;
+} 
+
+
+.hpad4 {
+  padding: 20px 32px !important;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
